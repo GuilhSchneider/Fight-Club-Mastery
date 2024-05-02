@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="Imagens/icone.png">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <title>Combat Carnival</title>
+</head>
+<body>
+
+    <div id="superior">
+        <div id="subsuperior">
+            <a href="index.html"><img id="voltar" src="Imagens/seta.png" alt="Voltar ao inicio" title="Voltar ao inicio"></a>
+            <h1 id="titulo" onclick="location.href = 'index.html'">Combat Carnival</h1>
+    </div>
+
+    <div id="principal">
+        <div id="subprincipal">
+    <form>
+    <h1 id="titulo2">Cadastre-se</h1>
+    <Label id="legenda1">Nome</Label>   <Label id="legenda2">Sobrenome</Label><br>
+    <input id="valor1" placeholder="Digite o seu nome" type="text"> 
+    <input id="valor2" placeholder="Digite seu sobrenome" type="text">
+
+    <br><br>
+    <Label id="legenda3">Email</Label><br>
+    <input id="valor3" placeholder="Digite o seu e-mail" type="email"> <br><br>
+    <Label id="legenda4">Modalidade</Label><label id="legenda5">Grau</label><br>
+    <input id="valor4" placeholder="Digite a sua modalidade" type="text">
+    <select name="Categoria" id="botao2">
+        <option value="1">Iniciante</option>
+        <option value="2">Avançado</option>
+        <option value="3">Mestre</option>
+    </select><br><br>
+    <Label id="legenda6">Telefone</Label><br>
+    <input id="valor5" placeholder="Digite o seu telefone" type="number"> <br><br>
+    <label id="legenda7">Senha</label><br>
+    <input id="valor6" placeholder="Digite uma senha" type="password"> <br><br>
+    <input id="botao" onclick="location.href = 'logar.html'" type="button" value="Cadastrar">
+
+    <h3 id="legenda8">Já tem uma conta??</h3>
+    <input id="botao" onclick="window.location.href='logar.html'" type="button" value="Logar">
+    </form>
+        </div>
+    </div>
+
+</body>
+</html>
